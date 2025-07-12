@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vrinda | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="logo">vrinda</div>
+        <nav>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#skills">SKILLS</a></li>
+                <li><a href="#projects">PROJECTS</a></li>
+                <li><a href="#resume">RESUME</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+                <li><button id="toggle-dark">☾</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero / Intro Section -->
+        <h1 class="title">
+            <span class="port">
+                <span class="letter">P</span>
+                <span class="letter">O</span>
+                <span class="letter">R</span>
+                <span class="letter">T</span>
+            </span>
+            <span class="folio">folio</span>
+        </h1>
+
+        <div class="folder-graphic">
+            <div class="triangle"></div>
+            <div class="sheet sheet1"></div>
+            <div class="sheet sheet2"></div>
+            <div class="sheet sheet3"></div>
+            <div class="folder"></div>
+        </div>
+
+        <div class="buttons">
+            <button class="outline">Available for new opportunities</button>
+            <button class="solid">Contact me</button>
+        </div>
+
+        <div id="custom-cursor"></div>
+
+        <!-- About Section -->
+        <section id="about">
+            <h2 class="section-title">About me</h2>
+
+            <div class="about-flex-wrapper">
+                <!-- Left: Image + Pink Caption -->
+                <div class="about-left">
+                    <div class="about-img-container">
+                        <img src="IMG-20241023-WA1224.jpg" class="about-photo" alt="About Photo">
+                    </div>
+                    <div class="about-img-caption">
+                        <p>
+                            A passionate soul blending tradition and tech — every design I create holds a story,
+                            a sentiment, and a sense of self.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Right: About Info Boxes -->
+                <div class="about-info">
+                    <div class="about-item">
+                        <div class="about-number">01</div>
+                        <div class="about-content">
+                            <h4>LOVE</h4>
+                            <p>I love minimalism, typographic works, and emotional design.</p>
+                        </div>
+                    </div>
+                    <div class="about-item">
+                        <div class="about-number">02</div>
+                        <div class="about-content">
+                            <h4>PAST EXPERIENCE</h4>
+                            <p>I’ve worked as a design engineer in the oil and gas industry for 12 years.</p>
+                        </div>
+                    </div>
+                    <div class="about-item">
+                        <div class="about-number">03</div>
+                        <div class="about-content">
+                            <h4>APPROACH</h4>
+                            <p>My background allows me to apply an engineering approach to website development.</p>
+                        </div>
+                    </div>
+                    <div class="about-item">
+                        <div class="about-number">04</div>
+                        <div class="about-content">
+                            <h4>CURRENT EXPERIENCE</h4>
+                            <p>I’ve been freelancing for 2 years — designing and building modern, tailored websites.</p>
+                        </div>
+                    </div>
+                    <div class="about-item">
+                        <div class="about-number">05</div>
+                        <div class="about-content">
+                            <h4>INSPIRATION</h4>
+                            <p>I’m most inspired by nature, music, and art — especially calm walks in the countryside.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skills-wrapper">
+                <ul class="skills-loop">
+                    <li>HTML / CSS / JavaScript</li>
+                    <li>React</li>
+                    <li>Tailwind</li>
+                    <li>GSAP</li>
+                    <li>Figma</li>
+                    <li>Adobe XD</li>
+                    <li>Git & GitHub</li>
+                    <li>Responsive UI Design</li>
+
+                    <!-- Duplicate for seamless loop -->
+                    <li>HTML / CSS / JavaScript</li>
+                    <li>React</li>
+                    <li>Tailwind</li>
+                    <li>GSAP</li>
+                    <li>Figma</li>
+                    <li>Adobe XD</li>
+                    <li>Git & GitHub</li>
+                    <li>Responsive UI Design</li>
+                </ul>
+            </div>
+        </section>
+
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>Projects</h2>
+            <div>
+                <h3>Typing Speed Test</h3>
+                <p>A JS-based typing speed tester with live WPM and accuracy tracking.</p>
+            </div>
+            <div>
+                <h3>Rezet Rebrand</h3>
+                <p>UI/UX redesign and visual overhaul for a tech brand.</p>
+            </div>
+            <div>
+                <h3>Animated Flowchart</h3>
+                <p>JS/CSS project showing connected states and transitions using a glowing path.</p>
+            </div>
+        </section>
+
+        <!-- Resume Section -->
+        <section id="resume">
+            <h2>Resume</h2>
+            <a href="resume.pdf" class="solid" download>Download Resume</a>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form>
+                <input type="text" placeholder="Your Name" required />
+                <input type="email" placeholder="Your Email" required />
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit" class="solid">Send</button>
+            </form>
+        </section>
+    </main>
+    <div id="custom-cursor"></div>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Vrinda. Made with love, logic & a touch of pink ✨</p>
+    </footer>
+
+    <script>
+        const toggle = document.getElementById("toggle-dark");
+        toggle.addEventListener("click", () => {
+            document.body.classList.toggle("dark");
+
+        });
+        const cursor = document.getElementById("custom-cursor");
+
+        document.addEventListener("mousemove", (e) => {
+            cursor.style.left = e.clientX + 'px';
+            cursor.style.top = e.clientY + 'px';
+        });
+    </script>
+
+
+</body>
+
+</html>
